@@ -4,5 +4,10 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make install
-      - run: make lint
+    - uses: actions/checkout@v2
+    - name: npm install
+      run: 
+        make install
+    - name: Run Linter
+      run: 
+        make lint
