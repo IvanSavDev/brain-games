@@ -6,12 +6,12 @@ const gameStructure = (rules, game) => {
   const name = readlineSync.question('May I have your name? ');
 
   console.log(`Hello, ${name}!`);
-	console.log(rules);
+  console.log(rules);
 
   const gameCount = 3;
 
-	for (let i = 0; i < gameCount; i += 1) {
-    let [question, correctAnswer] = game();
+  for (let i = 0; i < gameCount; i += 1) {
+    const [question, correctAnswer] = game();
 
     console.log(`Question: ${question}`);
 
@@ -23,9 +23,9 @@ const gameStructure = (rules, game) => {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}\nLet's try again, ${name}!`);
       return;
     }
-		}
-	
-	console.log(`Congratulations, ${name}`);
+  }
+
+  console.log(`Congratulations, ${name}`);
 };
 
 export default gameStructure;

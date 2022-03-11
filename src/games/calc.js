@@ -9,26 +9,22 @@ const calcGame = () => {
     const secondOperand = Math.floor(Math.random() * 100);
     const choiceOperator = Math.floor(Math.random() * 3);
     let correctAnswer = 0;
-    let question = '';
-    
+    let question = `${firstOperand} ${ArrayOfOperators[choiceOperator]} ${secondOperand}`;
+
     if (ArrayOfOperators[choiceOperator] === '+') {
-      correctAnswer = firstOperand + secondOperand;
-      question = `${firstOperand} + ${secondOperand}`;
+	  correctAnswer = firstOperand + secondOperand;
     }
     if (ArrayOfOperators[choiceOperator] === '*') {
       correctAnswer = firstOperand * secondOperand;
-      question = `${firstOperand} * ${secondOperand}`;
     }
     if (ArrayOfOperators[choiceOperator] === '-') {
       correctAnswer = firstOperand - secondOperand;
-      question = `${firstOperand} - ${secondOperand}`;
     }
 
     return [question, correctAnswer];
-  }
-
+  };
 
   gameStructure(rules, game);
-}
+};
 
 export default calcGame;
