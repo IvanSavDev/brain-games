@@ -13,3 +13,8 @@ Start game: make brain-even
 
 Start game: make brain-calc
 [![asciicast](https://asciinema.org/a/4iyLIkC7iMtYnvX5tSUzPfrlx.svg)](https://asciinema.org/a/4iyLIkC7iMtYnvX5tSUzPfrlx)
+
+### Greatest сommon divisor
+
+Start game: make brain-gcd
+[![asciicast](https://asciinema.org/a/839P2FXYtxC58pARbWwIC87jX.svg)](https://asciinema.org/a/839P2FXYtxC58pARbWwIC87jX)
