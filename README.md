@@ -18,3 +18,8 @@ Start game: make brain-calc
 
 Start game: make brain-gcd
 [![asciicast](https://asciinema.org/a/839P2FXYtxC58pARbWwIC87jX.svg)](https://asciinema.org/a/839P2FXYtxC58pARbWwIC87jX)
+
+### Arithmetic progression
+
+Start game: make brain-progression
+[![asciicast](https://asciinema.org/a/7DPDAHVs8KuAGGRgi1GwkVgx3.svg)](https://asciinema.org/a/7DPDAHVs8KuAGGRgi1GwkVgx3)
