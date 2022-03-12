@@ -23,3 +23,8 @@ Start game: make brain-gcd
 
 Start game: make brain-progression
 [![asciicast](https://asciinema.org/a/7DPDAHVs8KuAGGRgi1GwkVgx3.svg)](https://asciinema.org/a/7DPDAHVs8KuAGGRgi1GwkVgx3)
+
+### Search a prime number
+
+Start game: make brain-prime
+[![asciicast](https://asciinema.org/a/Shs8Ji1MnJtdWaRRnVvaMGHz4.svg)](https://asciinema.org/a/Shs8Ji1MnJtdWaRRnVvaMGHz4)
