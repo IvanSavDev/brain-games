@@ -9,7 +9,7 @@ const game = () => {
 
   const startNumber = getRandomNumber(1, 25);
   const stepProgression = getRandomNumber(1, 10);
-  const lostNumber = getRandomNumber(0, 10);
+  const lostNumber = getRandomNumber(0, 9);
 
   const arrayProgression = [];
 
