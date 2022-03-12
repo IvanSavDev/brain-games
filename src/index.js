@@ -25,7 +25,7 @@ const gameStructure = (rules, game) => {
     }
   }
 
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default gameStructure;
