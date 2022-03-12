@@ -6,21 +6,17 @@ const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const game = () => {
   const question = getRandomNumber(0, 100);
 
-  const getPrimeNumber = (number) => {
-    if (number === 0 || number === 1) {
-      return false;
-    }
-
-    for (let i = 2; i < number; i += 1) {
+  const isPrime = (number) => {
+    for (let i = 2, max = Math.sqrt(number); i <= max; i += 1) {
       if (number % i === 0) {
         return false;
       }
     }
 
-    return true;
+    return number > 1;
   };
 
-  const correctAnswer = getPrimeNumber(question) ? 'yes' : 'no';
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
