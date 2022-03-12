@@ -8,7 +8,7 @@ const game = () => {
   let correctAnswer = 0;
 
   const startNumber = getRandomNumber(1, 25);
-  const stepProgression = getRandomNumber(0, 10);
+  const stepProgression = getRandomNumber(1, 10);
   const lostNumber = getRandomNumber(0, 10);
 
   const arrayProgression = [];
