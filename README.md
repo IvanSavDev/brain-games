@@ -22,7 +22,7 @@ Mind Games is a set of five console games built using popular mobile brain train
 make install
 ```
 
-##Games
+## Games
 
 ### Even number check
 
