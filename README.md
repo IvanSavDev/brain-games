@@ -16,6 +16,14 @@ Mind Games is a set of five console games built using popular mobile brain train
 4. Finding the greatest common divisor.
 5. Definition of a prime number.
 
+## Installation
+
+```
+make install
+```
+
+##Games
+
 ### Even number check
 
 Start game:
